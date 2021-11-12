@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background-image: url('banff.jpeg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.4));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    border-radius: 20px 20px 20px 20px;
+    border-bottom: 3px solid rgb(119, 119, 119);
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 300;
+    transition: .4s ease-out;
+
+}
+
+main {
+    padding: 25px 25px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.location .city{
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.current .temp {
+    color: whitesmoke;
+    font-size: 120px;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+
+.current .weather {
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 650;
+    font-style: italic;
+}
+
+.current .high-low{
+    color: whitesmoke;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.current .humidity{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 500;
+}
